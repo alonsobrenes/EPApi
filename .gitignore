@@ -1,0 +1,12 @@
+# Ignorar carpetas de compilación y temporales de Visual Studio/.NET
+bin/
+obj/
+.vs/
+
+# Otros archivos temporales
+*.user
+*.db
+*.log
+
+# Configuración local que no se debe compartir
+appsettings.*.local.json
