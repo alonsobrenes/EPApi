@@ -1,12 +1,45 @@
-# Ignorar carpetas de compilación y temporales de Visual Studio/.NET
+## Visual Studio temp folders
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
 bin/
 obj/
-.vs/
+[Bb]uild/
+[Ll]og/
 
-# Otros archivos temporales
-*.user
-*.db
+## VS Code
+.vscode/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## IIS Express
+IISExpress/
+
+## User-specific files
+*.dbmdl
+*.jfm
+
+## Temporary files
+*.tmp
+*.temp
 *.log
+*.cache
+*.pdb
+*.db
+*.opendb
+*.swp
+*~ 
 
-# Configuración local que no se debe compartir
+## Local configuration
 appsettings.*.local.json
